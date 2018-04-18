@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/* 共通のスタイル */
+
+wrap{
+    width: 100%;
+}
+
+    header{}
+
+        header div#color{
+            width: 100%;
+            height: 16px;
+            background-color: #B36320;
+        }
+
+        header div#back{
+            width: 100%;
+            height: 642px;
+            background-image: url(../images/mokume.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+            header div#back #back-img{
+                width: 960px;
+                height: 410px;
+                background-color: #FFFFFF;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            }
+
+                header div#back #back-img #back-header{
+                    width: 940px;
+                    height: 380px;
+                    /*background-image: url(../images/main.png);*/
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+
+                    header div#back #back-img #back-header #logo{
+                        position: absolute;
+                        top: -132px;
+                        left: -10px;
+                    }
+
+    nav{
+        margin-bottom: 48px;
+}
+
+        nav div#color2{
+            width: 100%;
+            height: 9px;
+            background-color: #B36320;
+        }
+
+        nav div#color3{
+            width: 100%;
+            height: 4px;
+            background-color: #8F4F1A;
+        }
+
+        nav div#nav-g{
+            width: 100%;
+            height: 67px;
+            background-color: #B36320;
+            }
+
+            nav div#nav-g ul{
+                width: 100%;
+                text-align: center;
+            }
+
+                nav div#nav-g ul li{
+                    display: inline-block;
+                    padding: 0 50px;
+                    border-left: 1px solid #FFFFFF;
+                    border-right: 1px solid #FFFFFF;
+                    transition: background-color 1s;
+                }
+
+                nav div#nav-g ul li+li{
+                    border-left:0;
+                    border-right: 1px solid #FFFFFF;
+                }
+
+                nav div#nav-g ul li:hover{
+                    background-color: #DB9E1B;
+                    color: #000000;
+                }
+
+                    nav div#nav-g ul li a{
+                        height: 67px;
+                        margin: auto 0;
+                        color: #FFFFFF;
+                        display: table-cell;
+                        vertical-align: middle;
+                        text-decoration: none;
+                    }
+
+    div#contents{
+        width: 1160px;
+        margin: 0 auto;
+}
+
+            div#contents #bana{
+                width: 1046px;
+                margin: 0 auto 60px auto;
+            }
+
+                div#contents #bana img{
+                    margin: 0 15px;
+                }
+
+                div#contents #bana img:hover{
+                    opacity: 0.5;
+                }
+
+            div#contents #sub-bana{
+                margin-right: 27px;
+                float: left;
+            }
+
+                div#contents #sub-bana li{
+                    list-style: none;
+                }
+
+                    div#contents #sub-bana li a{}
+
+                    div#contents #sub-bana li a img{
+                        margin-bottom: 26px;
+                    }
+
+                    div#contents #sub-bana li a img:hover{
+                        opacity: 0.5;
+                    }
+
+            div#contents #item-list{
+                width: 870px;
+                margin-bottom: 16px;
+                float: left;
+                position: relative;
+            }
+
+                div#contents #item-list a{
+                    
+                }
+
+                    div#contents #item-list a img{
+                        float: left;
+                        margin: 0 17px 35px 17px;
+                    }
+
+                    div#contents #item-list a img:hover{
+                        opacity: 0.5;
+                    }
+
+                div#contents #item-list #look{
+                    padding-left: 70px;
+                    border-bottom: 1px solid #000000;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+
+                    div#contents #item-list #look a{
+                        color:#000000;
+                        text-decoration: none;
+                    }
+
+                    div#contents #item-list #look a:hover{
+                        color: #777777;
+                    }
+
+            div#contents #info{
+                width: 960px;
+                margin: 0 auto 21px auto;
+            }
+
+                div#contents #info #topic{
+                    width: 470px;
+                    height: 448px;
+                    margin-right: 80px;
+                    border-bottom: 1px solid #000000;
+                    float: left;
+                    text-align: center;
+                    position: relative;
+                }
+
+                    div#contents #info #topic #border{
+                        padding: 15px 0;
+                        margin-bottom: 24px;
+                        border-top: 1px solid #000000;
+                        border-bottom: 1px solid #000000;
+                    }
+
+                        div#contents #info #topic ul{
+                            
+                        }
+
+                            div#contents #info #topic ul li{
+                                text-align: left;
+                                margin-bottom: 23px;
+                            }
+
+                                div#contents #info #topic ul li a{
+                                    text-decoration: none;
+                                    color: #000000;
+                                }
+
+                                div#contents #info #topic ul li a:hover{
+                                    text-decoration: underline;
+                                    color: #777777;
+                                }
+
+                                    div#contents #info #topic ul li a .right{
+                                        margin-right: 23px;
+                                    }
+
+                    div#contents #info #topic #new{
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                    }
+
+                        div#contents #info #topic #new a{
+                            text-decoration: none;
+                            color: #000000;
+                        }
+
+                        div#contents #info #topic #new a:hover{
+                            color: #777777;
+                        }
+
+                div#contents #info #now{
+                    float: left;
+                }
+
+                    div#contents #info #now img{
+                        line-height: 0;
+                    }
+
+            div#contents footer{
+                width: 1160px;
+                height: 86px;
+                background-color: #B36320;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+                div#contents footer p{
+                    margin-left: 26px;
+                    color: #FFFFFF;
+                }
+
+                div#contents footer ul{
+                    float: right;
+                }
+
+                    div#contents footer ul li{
+                        margin-right: 35px;
+                        display: inline-block;
+                    }
+
+                        div#contents footer ul li a{
+                            color: #FFFFFF;
+                            text-decoration: none;
+                        }
+
+                        div#contents footer ul li a:hover{
+                            color: #D0D0D0;
+                        }
+
+                        div#contents footer ul li p{
+                            color: #FFFFFF;
+                        }
